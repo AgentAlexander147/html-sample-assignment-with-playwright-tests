@@ -3,7 +3,7 @@ import fs from "fs";
 import path from "path";
 import { parse } from "node-html-parser";
 
-const filePath = path.resolve(__dirname, "../index.html");
+const filePath = path.resolve(__dirname, "../Index.html");
 const htmlContent = fs.readFileSync(filePath, "utf8");
 
 describe("Global Document level tests", async () => {
